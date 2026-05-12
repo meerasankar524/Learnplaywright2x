@@ -12,7 +12,7 @@
 // JavaScript Identifier Rules Examples
 // ==========================================
 // Rule 1: Must start with a letter, underscore (_), or dollar sign ($)
-let validName = "starts with letter";
+let validName = "         starts with letter";
 let _privateVar = "starts with underscore";
 let $jqueryStyle = "starts with dollar sign";
 // Invalid: Cannot start with a digit

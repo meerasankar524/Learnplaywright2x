@@ -17,9 +17,19 @@ Learnplaywright/
 │   ├── 06_Identifire_rules.js
 │   ├── 07_Identifier_part2.js
 │   ├── 08_Identifier_part2.js
+│   ├── javascript-identifier-rules.js
 │   ├── VS_code_keyboard_shortcut_windows.md
 │   └── VS_code_keyboard_shortcut_windows_copy.md
-└── javascript-identifier-rules.js
+└── chapter_04_JS_concepts/
+    ├── 09_var_let_cost.js
+    ├── 10_function.js
+    ├── 11_var_explained.js
+    ├── 12_let_explained.js
+    ├── 13_const.js
+    ├── 14_var_funscoped.js
+    ├── 15_letscope.js
+    ├── 16_Hoisting.js
+    └── 17_Hoisting_fn.js
 ```
 
 ## Chapters
@@ -27,12 +37,16 @@ Learnplaywright/
 - **Chapter 01 - Basics**: Introduction to JavaScript basics, commands, and concepts.
 - **Chapter 02 - JavaScript Concepts**: Core JavaScript concepts and fundamentals.
 - **Chapter 03 - Identifiers & Literals**: JavaScript identifier rules, naming conventions (camelCase, PascalCase, snake_case, SCREAMING_SNAKE_CASE), and VS Code keyboard shortcuts reference.
+- **Chapter 04 - JS Concepts**: Variable declarations (`var`, `let`, `const`), function basics, scope, and hoisting.
 
 ## Topics Covered
 
 - JavaScript identifier naming rules
 - Naming conventions (camelCase, PascalCase, snake_case, etc.)
 - VS Code keyboard shortcuts for Windows
+- Variable declarations: `var`, `let`, `const`
+- Function declarations and expressions
+- Scope and hoisting
 
 ## How to Use
 
