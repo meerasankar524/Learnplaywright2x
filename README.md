@@ -29,7 +29,20 @@ Learnplaywright/
     ├── 14_var_funscoped.js
     ├── 15_letscope.js
     ├── 16_Hoisting.js
-    └── 17_Hoisting_fn.js
+    ├── 17_Hoisting_fn.js
+    ├── 18_let_hoisting.js
+    ├── 19_let_hoisting_block.js
+    ├── 20_let_const.js
+    └── 21_jr_QA.js
+├── chapter_05_Literals.js/
+│   ├── 22_literal.js
+│   ├── 23_null_undefined.js
+│   ├── 24_null.js
+│   ├── 25_Literal_all.js
+│   ├── 26_Literal_allnumber.js
+│   ├── 27_string.js
+│   ├── 28_Template_literal.js
+│   └── 29_Backtick_single_double.js
 ```
 
 ## Chapters
@@ -37,7 +50,8 @@ Learnplaywright/
 - **Chapter 01 - Basics**: Introduction to JavaScript basics, commands, and concepts.
 - **Chapter 02 - JavaScript Concepts**: Core JavaScript concepts and fundamentals.
 - **Chapter 03 - Identifiers & Literals**: JavaScript identifier rules, naming conventions (camelCase, PascalCase, snake_case, SCREAMING_SNAKE_CASE), and VS Code keyboard shortcuts reference.
-- **Chapter 04 - JS Concepts**: Variable declarations (`var`, `let`, `const`), function basics, scope, and hoisting.
+- **Chapter 04 - JS Concepts**: Variable declarations (`var`, `let`, `const`), function basics, scope, hoisting, and block scope.
+- **Chapter 05 - Literals**: JavaScript literals including numbers, strings, booleans, null, undefined, symbols, template literals, and backtick vs single/double quotes.
 
 ## Topics Covered
 
@@ -46,7 +60,11 @@ Learnplaywright/
 - VS Code keyboard shortcuts for Windows
 - Variable declarations: `var`, `let`, `const`
 - Function declarations and expressions
-- Scope and hoisting
+- Scope and hoisting (var, let, const)
+- Block scope vs function scope
+- JavaScript literals: numbers, strings, booleans, null, undefined, symbols
+- Template literals and string interpolation
+- Backtick vs single/double quotes
 
 ## How to Use
 
