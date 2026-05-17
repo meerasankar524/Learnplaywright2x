@@ -43,6 +43,22 @@ Learnplaywright/
 │   ├── 27_string.js
 │   ├── 28_Template_literal.js
 │   └── 29_Backtick_single_double.js
+└── chapter_06_double_tripple_equal.js/
+    ├── 30_operator.js
+    ├── 31_Arithmetic_op.js
+    ├── 32_modulus.js
+    ├── 33_expo_op.js
+    ├── 34_IQ.js
+    ├── 35_comparision_op.js
+    ├── 36_Comparision_strict_loose.js
+    ├── 37_IQ.js
+    ├── 38_Confusing_comparision.js
+    ├── 39_logical_op.js
+    ├── 40_Null_op.js
+    ├── 40_string_con_op.js
+    ├── 41_Ternary_op.js
+    ├── 42_Type_op.js
+    └── 43_Incre_Decre_op.js
 ```
 
 ## Chapters
@@ -52,6 +68,7 @@ Learnplaywright/
 - **Chapter 03 - Identifiers & Literals**: JavaScript identifier rules, naming conventions (camelCase, PascalCase, snake_case, SCREAMING_SNAKE_CASE), and VS Code keyboard shortcuts reference.
 - **Chapter 04 - JS Concepts**: Variable declarations (`var`, `let`, `const`), function basics, scope, hoisting, and block scope.
 - **Chapter 05 - Literals**: JavaScript literals including numbers, strings, booleans, null, undefined, symbols, template literals, and backtick vs single/double quotes.
+- **Chapter 06 - Operators**: JavaScript operators including arithmetic, comparison (loose `==` vs strict `===`), logical, ternary, nullish coalescing, string concatenation, type checking, and increment/decrement operators.
 
 ## Topics Covered
 
@@ -65,6 +82,9 @@ Learnplaywright/
 - JavaScript literals: numbers, strings, booleans, null, undefined, symbols
 - Template literals and string interpolation
 - Backtick vs single/double quotes
+- Arithmetic, comparison, and logical operators
+- Loose (`==`) vs strict (`===`) equality comparison
+- Ternary, nullish coalescing, and type operators
 
 ## How to Use
 

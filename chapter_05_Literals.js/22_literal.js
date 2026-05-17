@@ -1,3 +1,5 @@
+let n = 25; // this is a numeric literal assigned to a variable named age.
+console.log(typeof n); // "number"
 let age = "meera"; // this is a string literal assigned to a variable named age. 
 
 let isStudent = true; // this is a boolean literal assigned to a variable named isStudent.
