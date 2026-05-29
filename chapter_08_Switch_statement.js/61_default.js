@@ -1,4 +1,4 @@
-let day = 6;
+let day = 10;
 //1 - mon, 2 - tues(
 
 switch (day) {

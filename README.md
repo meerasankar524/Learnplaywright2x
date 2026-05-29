@@ -71,8 +71,20 @@ Learnplaywright/
 │   ├── 56_IQ_oddeven.js
 │   ├── 57_IQ_grade.js
 │   └── 58_LEAPYR.js
-└── chapter_08_Switch_statement.js/
-    └── 59_switch.js
+├── chapter_08_Switch_statement.js/
+│   ├── 59_switch.js
+│   ├── 60_Nobreak.js
+│   ├── 61_default.js
+│   ├── 62_REALEX.js
+│   ├── 63_switch_group.js
+│   ├── 64_IQ.js
+│   ├── 65_IQ2.js
+│   ├── 66_1Q3.js
+│   └── 67_IQ4.js
+└── chapter_09_UserInput/
+    ├── 68_Userinput.js
+    ├── 69_node_readline.js
+    └── 70_prompt_sync.js
 ```
 
 ## Chapters
@@ -84,7 +96,8 @@ Learnplaywright/
 - **Chapter 05 - Literals**: JavaScript literals including numbers, strings, booleans, null, undefined, symbols, template literals, and backtick vs single/double quotes.
 - **Chapter 06 - Operators**: JavaScript operators including arithmetic, comparison (loose `==` vs strict `===`), logical, ternary, nullish coalescing, string concatenation, type checking, and increment/decrement operators.
 - **Chapter 07 - If/Else Statements**: Conditional statements with `if`, `else if`, and `else`, real-world examples, API condition checks, IQ-style problems (grade calculator, odd/even, leap year).
-- **Chapter 08 - Switch Statement**: Introduction to `switch` case statements.
+- **Chapter 08 - Switch Statement**: Introduction to `switch` case statements, grouped cases, default handling, and IQ-style problems.
+- **Chapter 09 - User Input**: Handling user input with `readline` and `prompt-sync` in Node.js.
 
 ## Topics Covered
 
@@ -103,7 +116,8 @@ Learnplaywright/
 - Ternary, nullish coalescing, and type operators
 - `if` / `else if` / `else` conditional statements
 - Real-world conditional logic and API condition checks
-- `switch` case statements
+- `switch` case statements (including grouped cases and default handling)
+- User input handling with `readline` and `prompt-sync`
 
 ## How to Use
 
