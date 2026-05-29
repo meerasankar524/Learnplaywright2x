@@ -43,22 +43,36 @@ Learnplaywright/
 │   ├── 27_string.js
 │   ├── 28_Template_literal.js
 │   └── 29_Backtick_single_double.js
-└── chapter_06_double_tripple_equal.js/
-    ├── 30_operator.js
-    ├── 31_Arithmetic_op.js
-    ├── 32_modulus.js
-    ├── 33_expo_op.js
-    ├── 34_IQ.js
-    ├── 35_comparision_op.js
-    ├── 36_Comparision_strict_loose.js
-    ├── 37_IQ.js
-    ├── 38_Confusing_comparision.js
-    ├── 39_logical_op.js
-    ├── 40_Null_op.js
-    ├── 40_string_con_op.js
-    ├── 41_Ternary_op.js
-    ├── 42_Type_op.js
-    └── 43_Incre_Decre_op.js
+├── chapter_06_double_tripple_equal.js/
+│   ├── 30_operator.js
+│   ├── 31_Arithmetic_op.js
+│   ├── 32_modulus.js
+│   ├── 33_expo_op.js
+│   ├── 34_IQ.js
+│   ├── 35_comparision_op.js
+│   ├── 36_Comparision_strict_loose.js
+│   ├── 37_IQ.js
+│   ├── 38_Confusing_comparision.js
+│   ├── 39_logical_op.js
+│   ├── 40_string_con_op.js
+│   ├── 41_Ternary_op.js
+│   ├── 42_Type_op.js
+│   ├── 43_Incre_Decre_op.js
+│   ├── 44_Null_op.js
+│   └── 50_REAL_IF_ELSE.js
+├── chapter_07_if_else.js/
+│   ├── 48_if_else.js
+│   ├── 49_if_elseif_else.js
+│   ├── 51_API_IF_ELSE.js
+│   ├── 52_IQ_IF_ELSE.js
+│   ├── 53_IF_ELSE_REAL.js
+│   ├── 54_IQ.js
+│   ├── 55_IFELSE.js
+│   ├── 56_IQ_oddeven.js
+│   ├── 57_IQ_grade.js
+│   └── 58_LEAPYR.js
+└── chapter_08_Switch_statement.js/
+    └── 59_switch.js
 ```
 
 ## Chapters
@@ -69,6 +83,8 @@ Learnplaywright/
 - **Chapter 04 - JS Concepts**: Variable declarations (`var`, `let`, `const`), function basics, scope, hoisting, and block scope.
 - **Chapter 05 - Literals**: JavaScript literals including numbers, strings, booleans, null, undefined, symbols, template literals, and backtick vs single/double quotes.
 - **Chapter 06 - Operators**: JavaScript operators including arithmetic, comparison (loose `==` vs strict `===`), logical, ternary, nullish coalescing, string concatenation, type checking, and increment/decrement operators.
+- **Chapter 07 - If/Else Statements**: Conditional statements with `if`, `else if`, and `else`, real-world examples, API condition checks, IQ-style problems (grade calculator, odd/even, leap year).
+- **Chapter 08 - Switch Statement**: Introduction to `switch` case statements.
 
 ## Topics Covered
 
@@ -85,6 +101,9 @@ Learnplaywright/
 - Arithmetic, comparison, and logical operators
 - Loose (`==`) vs strict (`===`) equality comparison
 - Ternary, nullish coalescing, and type operators
+- `if` / `else if` / `else` conditional statements
+- Real-world conditional logic and API condition checks
+- `switch` case statements
 
 ## How to Use
 
