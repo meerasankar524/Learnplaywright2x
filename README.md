@@ -85,6 +85,28 @@ Learnplaywright/
     ├── 68_Userinput.js
     ├── 69_node_readline.js
     └── 70_prompt_sync.js
+└── chapter_10_loops/
+    ├── 71_forloop.js
+    ├── 72_forloop.js
+    ├── 73_forloop2.js
+    ├── 74_IQ.js
+    ├── 75_FOR_of_in_each.js
+    ├── 76_While.js
+    ├── 77_DO-While.js
+    ├── 78_Do_While.js
+    ├── 79_IQ.js
+    ├── 80_IQ.js
+    ├── 81_IQ.js
+    └── 82_IQ.js
+└── chapter_11_Arrays.js/
+    ├── 83_Array.js
+    ├── 84-Array.js
+    ├── 85_Access_Array.js
+    ├── 86_Array_add_remove.js
+    ├── 87_Add_remove_part2.js
+    ├── 88_REAL EX_Arr.js
+    ├── 89_Searching.js
+    └── 90_Iterate.js
 ```
 
 ## Chapters
@@ -98,6 +120,8 @@ Learnplaywright/
 - **Chapter 07 - If/Else Statements**: Conditional statements with `if`, `else if`, and `else`, real-world examples, API condition checks, IQ-style problems (grade calculator, odd/even, leap year).
 - **Chapter 08 - Switch Statement**: Introduction to `switch` case statements, grouped cases, default handling, and IQ-style problems.
 - **Chapter 09 - User Input**: Handling user input with `readline` and `prompt-sync` in Node.js.
+- **Chapter 10 - Loops**: JavaScript loop structures including `for`, `for...of`, `for...in`, `forEach`, `while`, and `do...while` loops. IQ-style problems and real-world examples.
+- **Chapter 11 - Arrays**: JavaScript array fundamentals including creation, access, adding/removing elements, searching, and iterating through arrays.
 
 ## Topics Covered
 
@@ -118,6 +142,9 @@ Learnplaywright/
 - Real-world conditional logic and API condition checks
 - `switch` case statements (including grouped cases and default handling)
 - User input handling with `readline` and `prompt-sync`
+- `for` loops, `for...of`, `for...in`, `forEach`, `while`, and `do...while` loops
+- Array creation, access, and manipulation (add/remove elements)
+- Array searching and iteration
 
 ## How to Use
 
