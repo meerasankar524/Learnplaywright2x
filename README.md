@@ -20,20 +20,20 @@ Learnplaywright/
 │   ├── javascript-identifier-rules.js
 │   ├── VS_code_keyboard_shortcut_windows.md
 │   └── VS_code_keyboard_shortcut_windows_copy.md
-└── chapter_04_JS_concepts/
-    ├── 09_var_let_cost.js
-    ├── 10_function.js
-    ├── 11_var_explained.js
-    ├── 12_let_explained.js
-    ├── 13_const.js
-    ├── 14_var_funscoped.js
-    ├── 15_letscope.js
-    ├── 16_Hoisting.js
-    ├── 17_Hoisting_fn.js
-    ├── 18_let_hoisting.js
-    ├── 19_let_hoisting_block.js
-    ├── 20_let_const.js
-    └── 21_jr_QA.js
+├── chapter_04_JS_concepts/
+│   ├── 09_var_let_cost.js
+│   ├── 10_function.js
+│   ├── 11_var_explained.js
+│   ├── 12_let_explained.js
+│   ├── 13_const.js
+│   ├── 14_var_funscoped.js
+│   ├── 15_letscope.js
+│   ├── 16_Hoisting.js
+│   ├── 17_Hoisting_fn.js
+│   ├── 18_let_hoisting.js
+│   ├── 19_let_hoisting_block.js
+│   ├── 20_let_const.js
+│   └── 21_jr_QA.js
 ├── chapter_05_Literals.js/
 │   ├── 22_literal.js
 │   ├── 23_null_undefined.js
@@ -81,32 +81,46 @@ Learnplaywright/
 │   ├── 65_IQ2.js
 │   ├── 66_1Q3.js
 │   └── 67_IQ4.js
-└── chapter_09_UserInput/
-    ├── 68_Userinput.js
-    ├── 69_node_readline.js
-    └── 70_prompt_sync.js
-└── chapter_10_loops/
-    ├── 71_forloop.js
-    ├── 72_forloop.js
-    ├── 73_forloop2.js
-    ├── 74_IQ.js
-    ├── 75_FOR_of_in_each.js
-    ├── 76_While.js
-    ├── 77_DO-While.js
-    ├── 78_Do_While.js
-    ├── 79_IQ.js
-    ├── 80_IQ.js
-    ├── 81_IQ.js
-    └── 82_IQ.js
-└── chapter_11_Arrays.js/
-    ├── 83_Array.js
-    ├── 84-Array.js
-    ├── 85_Access_Array.js
-    ├── 86_Array_add_remove.js
-    ├── 87_Add_remove_part2.js
-    ├── 88_REAL EX_Arr.js
-    ├── 89_Searching.js
-    └── 90_Iterate.js
+├── chapter_09_UserInput/
+│   ├── 68_Userinput.js
+│   ├── 69_node_readline.js
+│   └── 70_prompt_sync.js
+├── chapter_10_loops/
+│   ├── 71_forloop.js
+│   ├── 72_forloop.js
+│   ├── 73_forloop2.js
+│   ├── 74_IQ.js
+│   ├── 75_FOR_of_in_each.js
+│   ├── 76_While.js
+│   ├── 77_DO-While.js
+│   ├── 78_Do_While.js
+│   ├── 79_IQ.js
+│   ├── 80_IQ.js
+│   ├── 81_IQ.js
+│   └── 82_IQ.js
+├── chapter_11_Arrays.js/
+│   ├── 83_Array.js
+│   ├── 84-Array.js
+│   ├── 85_Access_Array.js
+│   ├── 86_Array_add_remove.js
+│   ├── 87_Add_remove_part2.js
+│   ├── 88_REAL EX_Arr.js
+│   ├── 89_Searching.js
+│   ├── 90_Iterate.js
+│   ├── 91_Transform.js
+│   ├── 92_Array.js
+│   ├── 93_Slicing_Array.js
+│   ├── 94_Concat_Array.js
+│   └── 95_Array_checking.js
+└── chapter_12_Functions/
+    ├── 96_Functions.js
+    ├── 97_TYPE1_basic_fn.js
+    ├── 98_T2_with_Arg_no_return.js.js
+    ├── 99_T3_without _Param_ret_type.js
+    ├── 100_T4_With_Param_with_Return.js
+    ├── 101_Template_literal.js
+    ├── 102_Fn_Expression.js
+    └── 103_Arrow_Fn.js
 ```
 
 ## Chapters
@@ -121,7 +135,8 @@ Learnplaywright/
 - **Chapter 08 - Switch Statement**: Introduction to `switch` case statements, grouped cases, default handling, and IQ-style problems.
 - **Chapter 09 - User Input**: Handling user input with `readline` and `prompt-sync` in Node.js.
 - **Chapter 10 - Loops**: JavaScript loop structures including `for`, `for...of`, `for...in`, `forEach`, `while`, and `do...while` loops. IQ-style problems and real-world examples.
-- **Chapter 11 - Arrays**: JavaScript array fundamentals including creation, access, adding/removing elements, searching, and iterating through arrays.
+- **Chapter 11 - Arrays**: JavaScript array fundamentals including creation, access, adding/removing elements, searching, iterating, transforming, slicing, concatenating, and array checking methods.
+- **Chapter 12 - Functions**: JavaScript function fundamentals including basic functions, function types (with/without parameters and return), template literals in functions, function expressions, and arrow functions.
 
 ## Topics Covered
 
@@ -144,7 +159,11 @@ Learnplaywright/
 - User input handling with `readline` and `prompt-sync`
 - `for` loops, `for...of`, `for...in`, `forEach`, `while`, and `do...while` loops
 - Array creation, access, and manipulation (add/remove elements)
-- Array searching and iteration
+- Array searching, iteration, and transformation methods
+- Array slicing, concatenation, and checking methods
+- **Function fundamentals and types**
+- **Function expressions and arrow functions (`=>`)**
+- **Template literals with functions**
 
 ## How to Use
 
