@@ -112,15 +112,37 @@ Learnplaywright/
 │   ├── 93_Slicing_Array.js
 │   ├── 94_Concat_Array.js
 │   └── 95_Array_checking.js
-└── chapter_12_Functions/
-    ├── 96_Functions.js
-    ├── 97_TYPE1_basic_fn.js
-    ├── 98_T2_with_Arg_no_return.js.js
-    ├── 99_T3_without _Param_ret_type.js
-    ├── 100_T4_With_Param_with_Return.js
-    ├── 101_Template_literal.js
-    ├── 102_Fn_Expression.js
-    └── 103_Arrow_Fn.js
+    ├── chapter_12_Functions/
+    │   ├── 96_Functions.js
+    │   ├── 97_TYPE1_basic_fn.js
+    │   ├── 98_T2_with_Arg_no_return.js.js
+    │   ├── 99_T3_without _Param_ret_type.js
+    │   ├── 100_T4_With_Param_with_Return.js
+    │   ├── 101_Template_literal.js
+    │   ├── 102_Fn_Expression.js
+    │   ├── 103_Arrow_Fn.js
+    │   ├── 104_Arroe_real.js
+    │   ├── 104_Fn_Comparison_Table.js
+    │   ├── 105_IIFE.js
+    │   ├── 106_Default_param.js
+    │   ├── 107_IQ.js
+    │   ├── 108_Rest_Param_fn.js
+    │   ├── 109_IQ.js
+    │   ├── 110_Spread_IQ.js
+    │   ├── 111_Scope_fn.js
+    │   ├── 112_IQ.js
+    │   ├── 113_Closure.js
+    │   ├── 114_Closure.js
+    │   ├── 115_API_Real_Closure.js
+    │   ├── 116_Higher_order_fn.js
+    │   └── 121_substring.js
+    └── chapter_13_Strings/
+        ├── 118_Strings.js
+        ├── 119_Strings_properities.js
+        ├── 120_Searching_Checking.js
+        ├── 122_Transform_str.js
+        ├── 123_Str_conversion.js
+        └── JS_Str_cheat_sheet_fn.js
 ```
 
 ## Chapters
@@ -136,7 +158,8 @@ Learnplaywright/
 - **Chapter 09 - User Input**: Handling user input with `readline` and `prompt-sync` in Node.js.
 - **Chapter 10 - Loops**: JavaScript loop structures including `for`, `for...of`, `for...in`, `forEach`, `while`, and `do...while` loops. IQ-style problems and real-world examples.
 - **Chapter 11 - Arrays**: JavaScript array fundamentals including creation, access, adding/removing elements, searching, iterating, transforming, slicing, concatenating, and array checking methods.
-- **Chapter 12 - Functions**: JavaScript function fundamentals including basic functions, function types (with/without parameters and return), template literals in functions, function expressions, and arrow functions.
+- **Chapter 12 - Functions**: JavaScript function fundamentals including basic functions, function types (with/without parameters and return), template literals in functions, function expressions, arrow functions, IIFE, default parameters, rest parameters, spread operator, scope, closures, and higher-order functions.
+- **Chapter 13 - Strings**: JavaScript string methods cheat sheet covering all built-in string functions including searching, checking, transforming, and extracting operations.
 
 ## Topics Covered
 
@@ -164,6 +187,9 @@ Learnplaywright/
 - **Function fundamentals and types**
 - **Function expressions and arrow functions (`=>`)**
 - **Template literals with functions**
+- **IIFE, default parameters, rest parameters, and spread operator**
+- **Scope, closures, and higher-order functions**
+- **String methods cheat sheet** (`charAt`, `charCodeAt`, `codePointAt`, `at`, `indexOf`, `lastIndexOf`, `includes`, `startsWith`, `endsWith`, `search`, `match`, `matchAll`, `localeCompare`, `concat`, `slice`, `substring`, `substr`, `split`, `replace`, `replaceAll`, `toLowerCase`, `toUpperCase`, `trim`, `padStart`, `padEnd`, `repeat`, etc.)
 
 ## How to Use
 
