@@ -14,7 +14,7 @@ function greet(name) {
     return `Hello, ${name}!`;
 }
 
-let result = greet("Alice");
+let result = greet("Alice"); // greet("Alice"); -> CALLING  when let = result SAVING AFTER THAT ONLY IT WILL COME  
 console.log(result);
 
 // Another example: Multiple variables in a template literal

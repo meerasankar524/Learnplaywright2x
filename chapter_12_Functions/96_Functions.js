@@ -9,17 +9,17 @@
 
 // STEP 1: DEFINE (Create) the function
 // We use the keyword "function", give it a name, and put the code inside {}
-function sayHello() {
+function Hello() {
     console.log("Hello! How are you?");
 }
 
 // STEP 2: CALL (Run) the function
 // To use the function, just write its name followed by ()
-sayHello();
+Hello();
 
 // You can call it as many times as you want!
-sayHello();
-sayHello();
+Hello();
+Hello();
 
 // Output:
 // Hello! How are you?

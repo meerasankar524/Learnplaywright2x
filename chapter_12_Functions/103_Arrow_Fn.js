@@ -1,48 +1,70 @@
 // ============================================================
-// 103 - Arrow Function (=>)
+// 103 - Arrow Functions (=>) - The Short Way to Write Functions
 // ============================================================
-// Arrow functions are a shorter way to write functions.
-// They use the "=>" symbol (like an arrow).
+// Arrow functions are just a SHORTER way to write functions.
+// They use the "=>" symbol (like an arrow) instead of the "function" keyword.
 //
-// Think of it like "shortcut texting" - same meaning, less typing!
-//
-// Syntax: (parameters) => { code }
+// Why use them? Less typing, cleaner code!
 // ============================================================
 
-// Basic arrow function (one parameter)
-const greet = (name) => {
-    return "Hello, " + name;
-};
-
-console.log(greet("Meera"));
-
-// Arrow function with multiple parameters
-const add = (a, b) => {
+// ---------------------------------------------------------------
+// NORMAL FUNCTION (the long way)
+// ---------------------------------------------------------------
+function addNormal(a, b) {
     return a + b;
-};
+}
+console.log("Normal:", addNormal(2, 3));  // 5
 
-console.log("5 + 3 =", add(5, 3));
+// ---------------------------------------------------------------
+// ARROW FUNCTION (the short way)
+// ---------------------------------------------------------------
+// Step 1: Remove the word "function"
+// Step 2: Add "=>" after the parameters
+// Step 3: If it's one line, you can skip "return" and "{}"
+const addArrow = (a, b) => a + b;
+console.log("Arrow:", addArrow(2, 3));  // 5
 
-// SHORTCUT: If the function has ONLY ONE line with return,
-// you can skip the {} and the "return" keyword!
-const multiply = (a, b) => a * b;
+// ---------------------------------------------------------------
+// MORE EXAMPLES
+// ---------------------------------------------------------------
 
-console.log("4 * 5 =", multiply(4, 5));
+// 1. One parameter → you can skip the ()
+const double = n => n * 2;
+console.log("Double of 5:", double(5));  // 10
 
-// SHORTCUT: If there is only ONE parameter, 
-// you can skip the () around it!
-const square = num => num * num;
-
-console.log("Square of 6 =", square(6));
-
-// Arrow function with NO parameters
+// 2. No parameters → use empty ()
 const sayHi = () => "Hi there!";
+console.log(sayHi());  // Hi there!
 
-console.log(sayHi());
+// 3. Multiple lines → use {} and "return"
+const greet = (name) => {
+    const message = "Hello, " + name + "!";
+    return message;
+};
+console.log(greet("Meera"));  // Hello, Meera!
+
+// 4. Just printing (no return)
+const printName = name => console.log("Name:", name);
+printName("Dutta");  // Name: Dutta
+
+// ---------------------------------------------------------------
+// SUMMARY TABLE
+// ---------------------------------------------------------------
+//
+// | Type              | Syntax                          |
+// |-------------------|---------------------------------|
+// | Normal function   | function name() { return x; }  |
+// | Arrow (1 line)    | const name = () => x;           |
+// | Arrow (multi-line)| const name = () => { return x; }|
+// | 1 parameter       | const name = a => a * 2;        |
+// | 0 parameters      | const name = () => "Hi";        |
+//
+// ---------------------------------------------------------------
 
 // Output:
-// Hello, Meera
-// 5 + 3 = 8
-// 4 * 5 = 20
-// Square of 6 = 36
+// Normal: 5
+// Arrow: 5
+// Double of 5: 10
 // Hi there!
+// Hello, Meera!
+// Name: Dutta
