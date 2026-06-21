@@ -161,6 +161,25 @@ Learnplaywright/
 │   ├── 135_IQ.js
 │   ├── 136_obj_Real.js
 │   └── 137_let_vs_const.js
+├── chapter_15_2D_Array.js/
+│   ├── 138_2D_Array
+│   ├── 139_2d_IQ.js
+│   ├── 140_Real.js
+│   ├── 141_Array_fn.js
+│   ├── 142_IQ_Right_pattern.js
+│   └── testdata.csv
+└── chapter_16_Callback/
+    ├── 143_Callback.js
+    ├── 144_Callback.js
+    ├── 145_CB_FN.js
+    ├── 146_PW_CB.js
+    ├── 147_JS_CB.js
+    ├── 148_sync_CB.js
+    ├── 149_Async_CB.js
+    ├── 150_CB_Hell.js
+    ├── 151_CB_HELL_20steps.js
+    ├── 152_CB_Parameter.js
+    └── 153_CB_Return.js
 ```
 
 ## Chapters
@@ -179,6 +198,8 @@ Learnplaywright/
 - **Chapter 12 - Functions**: JavaScript function fundamentals including basic functions, function types (with/without parameters and return), template literals in functions, function expressions, arrow functions, IIFE, default parameters, rest parameters, spread operator, scope, closures, and higher-order functions.
 - **Chapter 13 - Strings**: JavaScript string methods cheat sheet covering all built-in string functions including searching, checking, transforming, substring extraction, and string conversion operations.
 - **Chapter 14 - Objects**: JavaScript object fundamentals including object creation, dot vs bracket notation, primitive vs reference types, object methods, destructuring, spread operator with objects, getter/setter methods, and real-world examples.
+- **Chapter 15 - 2D Arrays**: Two-dimensional arrays in JavaScript, creating and accessing 2D arrays, array functions with 2D data, pattern problems, and real-world examples with CSV test data.
+- **Chapter 16 - Callbacks**: JavaScript callback functions, synchronous and asynchronous callbacks, callback hell, passing functions as parameters, returning functions, and Playwright-specific callback examples.
 
 ## Topics Covered
 
@@ -216,6 +237,15 @@ Learnplaywright/
 - **Spread and rest operators** with objects
 - **Getters and setters** (`get` / `set`)
 - **`let` vs `const`** with objects and arrays
+- **2D array creation and access** (arrays inside arrays)
+- **2D array iteration and pattern problems**
+- **Array functions with 2D data structures**
+- **Real-world 2D array examples** (CSV-like data, test data handling)
+- **Callback function fundamentals** (passing functions as arguments)
+- **Synchronous vs asynchronous callbacks**
+- **Callback hell** and nested callback patterns
+- **Functions as parameters and return values**
+- **Playwright-specific callback examples**
 
 ## How to Use
 

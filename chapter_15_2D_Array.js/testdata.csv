@@ -1,0 +1,9 @@
+username ,password , expected_result
+admin, admin, not allowed
+admin, password123,not_allowed
+
+
+username	passwrod	expected_Result
+admin	admin	not_allowed
+admin	password123	not_allowed
+testadmin	pwd@123	allowed
