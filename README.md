@@ -168,18 +168,59 @@ Learnplaywright/
 │   ├── 141_Array_fn.js
 │   ├── 142_IQ_Right_pattern.js
 │   └── testdata.csv
-└── chapter_16_Callback/
-    ├── 143_Callback.js
-    ├── 144_Callback.js
-    ├── 145_CB_FN.js
-    ├── 146_PW_CB.js
-    ├── 147_JS_CB.js
-    ├── 148_sync_CB.js
-    ├── 149_Async_CB.js
-    ├── 150_CB_Hell.js
-    ├── 151_CB_HELL_20steps.js
-    ├── 152_CB_Parameter.js
-    └── 153_CB_Return.js
+├── chapter_16_Callback/
+│   ├── 143_Callback.js
+│   ├── 144_Callback.js
+│   ├── 145_CB_FN.js
+│   ├── 146_PW_CB.js
+│   ├── 147_JS_CB.js
+│   ├── 148_sync_CB.js
+│   ├── 149_Async_CB.js
+│   ├── 150_CB_Hell.js
+│   ├── 151_CB_HELL_20steps.js
+│   ├── 152_CB_Parameter.js
+│   └── 153_CB_Return.js
+├── chapter_17_Promise.js/
+│   ├── 154_Promise.js
+│   ├── 155_Promise_then.js
+│   ├── 156_Promise.js
+│   ├── 157_Promise_resolve.js
+│   ├── 158_Promise.js
+│   ├── 159_Promise_real.js
+│   ├── 160_Promise.js
+│   ├── 161_Promise_chaining.js
+│   ├── 162_Promise_Api_chain.js
+│   ├── 163_Error_Handling.js
+│   ├── 164_Async_IQ.js
+│   ├── 165_Promise_all.js
+│   ├── 166_Promise_api_all.js
+│   └── 167_Await.js
+├── chapter_18_ASYNC_AWAIT/
+│   ├── (async/await examples)
+│   └── ...
+├── chapter_19_Playwright_Basics/
+│   ├── (Playwright setup, basic tests)
+│   └── ...
+├── chapter_20_TS_Basics/
+│   ├── export_import/
+│   │   ├── testutils.js
+│   │   ├── 168 export-import.js
+│   │   └── ExplainDefault.md
+│   ├── ...
+│   └── ...
+├── chapter_21_Class_Object/
+│   ├── class.md
+│   ├── 171_Class_Object.js
+│   ├── 172_Class_Object2.js
+│   ├── 173_Car.js
+│   ├── 174_REAL_Browser.js
+│   ├── 175_IQ.js
+│   ├── 176_Private_Public.js
+│   ├── 177_Statis.js
+│   └── 178_Statis.js
+└── AADaily task/
+    ├── (daily practice exercises)
+    └── ...
 ```
 
 ## Chapters
@@ -200,6 +241,11 @@ Learnplaywright/
 - **Chapter 14 - Objects**: JavaScript object fundamentals including object creation, dot vs bracket notation, primitive vs reference types, object methods, destructuring, spread operator with objects, getter/setter methods, and real-world examples.
 - **Chapter 15 - 2D Arrays**: Two-dimensional arrays in JavaScript, creating and accessing 2D arrays, array functions with 2D data, pattern problems, and real-world examples with CSV test data.
 - **Chapter 16 - Callbacks**: JavaScript callback functions, synchronous and asynchronous callbacks, callback hell, passing functions as parameters, returning functions, and Playwright-specific callback examples.
+- **Chapter 17 - Promises**: JavaScript Promises — creating promises, `.then()` / `.catch()`, promise chaining, `Promise.all()`, error handling, and real-world API examples.
+- **Chapter 18 - Async/Await**: Modern asynchronous JavaScript with `async` functions and `await` keyword, replacing promise chains with readable async code.
+- **Chapter 19 - Playwright Basics**: Playwright automation fundamentals — setup, basic tests, browser context, pages, locators, and actions.
+- **Chapter 20 - TS Basics / Export & Import**: TypeScript basics and ES Modules — `export` vs `export default`, named exports, importing with aliases (`as`), and module patterns.
+- **Chapter 21 - Classes & Objects**: Object-oriented programming in JavaScript — class blueprints, constructors, methods, private fields (`#`), and `static` members.
 
 ## Topics Covered
 
@@ -246,6 +292,11 @@ Learnplaywright/
 - **Callback hell** and nested callback patterns
 - **Functions as parameters and return values**
 - **Playwright-specific callback examples**
+- **Promises** — creation, `.then()`, `.catch()`, chaining, `Promise.all()`, error handling
+- **Async/Await** — modern async syntax with `async`/`await`
+- **Playwright Basics** — automation setup, browser context, locators, actions
+- **ES Modules** — `export`, `export default`, `import`, `as` aliases
+- **Classes & Objects** — blueprints, constructors, methods, `#private` fields, `static` members
 
 ## How to Use
 

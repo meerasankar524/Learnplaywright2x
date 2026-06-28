@@ -1,0 +1,36 @@
+{
+  "name": "learnplaywright",
+  "version": "1.0.0",
+  "description": "This repository contains learning materials and code examples for JavaScript concepts, focusing on the fundamentals needed for Playwright automation testing.",
+  "main": "chapter_05_Literals.js",
+  "scripts": {
+    "test": "playwright test",
+    "version": "playwright --version",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meerasankar524/Learnplaywright2x.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/meerasankar524/Learnplaywright2x/issues"
+  },
+  "homepage": "https://github.com/meerasankar524/Learnplaywright2x#readme",
+  "dependencies": {
+    "playwright": "^1.61.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.0.1"
+  }
+}
